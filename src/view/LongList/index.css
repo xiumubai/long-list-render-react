@@ -1,0 +1,24 @@
+.list-box {
+  padding: 12px;
+  height: 100vh;
+}
+
+.scroll-box {
+  overflow: scroll;
+  position: relative;
+}
+
+.scroll-box .scroll-hold {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.scroll-box .context .list {
+  padding: 16px;
+  margin-bottom: 8px;
+  color: #fff;
+  background-color: red;
+  border-radius: 8px;
+}
